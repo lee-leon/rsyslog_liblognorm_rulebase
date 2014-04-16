@@ -1,6 +1,6 @@
-# A rulebase for liblognorm and usage within rsyslog via mmnormalize
+### A rulebase for liblognorm and usage within rsyslog via mmnormalize
 
-## Contributing
+### Contributing
 
 1. Fork it ( http://github.com/<my-github-username>/elasticshelf/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
