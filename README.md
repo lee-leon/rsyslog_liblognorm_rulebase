@@ -2,9 +2,12 @@
 
 ### Rule and Field syntax
 
+```
 rule=[<tag1>[,<tag2>...]]:<match description>
-
+```
+```
 %<field name>:<field type>[:<extra data>]%
+```
 
 ### Known field types
 
