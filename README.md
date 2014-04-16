@@ -11,7 +11,7 @@ rule=[<tag1>[,<tag2>...]]:<match description>
 
 ### Known field types
 
-1. %field_name:rest%
+1. %field_name:rest% (_this one was hard to find_)
 2. %field_name:number%
 3. %field_name:word%
 4. %field_name:char-to:,%
