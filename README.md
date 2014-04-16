@@ -1,4 +1,4 @@
-### A rulebase for liblognorm and usage within rsyslog via mmnormalize
+### A rulebase for liblognorm and mmnormalize in rsyslog
 
 ### Contributing
 
