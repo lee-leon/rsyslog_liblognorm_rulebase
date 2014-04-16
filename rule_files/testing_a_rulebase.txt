@@ -1,0 +1,2 @@
+testing a rulebase:
+lognormalizer -vr snort.rulebase < snort.log

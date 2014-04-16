@@ -1,0 +1,3 @@
+Apr 16 14:25:00 x.x.x.x snort [1:2001415:5] ICMP Destination Unreachable Communication Administratively Prohibited [Classification: Misc activity] [Priority: 3] {ICMP} 192.168.1.1 -> 10.0.0.0
+Jan 18 19:19:51 server1 suricata[88343]: [1:2001219:18] ET SCAN Potential SSH Scan [Classification: Attempted Information Leak] [Priority: 2] {TCP} 1.2.3.4:33835 -> 4.3.2.1:22
+Feb 18 19:19:45 server1 suricata[88343]: [1:2016292:3] ET TROJAN RevProxy ClickFraud - hello [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 1.2.3.4:30180 -> 4.3.2.1:443

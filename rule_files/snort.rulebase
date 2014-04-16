@@ -1,0 +1,2 @@
+rule=: %sig_sid:word% %signature:char-to:[%[Classification: %classification:char-to:]%] [Priority: %priority:char-to:]%] {%proto:char-to:}%} %srcip:ipv4% -> %dstip:ipv4%
+rule=: %sig_sid:word% %signature:char-to:[%[Classification: %classification:char-to:]%] [Priority: %priority:char-to:]%] {%proto:char-to:}%} %srcip:ipv4%:%srcport:number% -> %dstip:ipv4%:%dstport:number%
