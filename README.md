@@ -9,10 +9,10 @@ rule=[<tag1>[,<tag2>...]]:<match description>
 %<field name>:<field type>[:<extra data>]%
 ```
 
-### Known field types
+### Known (_as in taken from source code_) field types
 
 
-> _**rest** was hard to find, and it would be nice to have something like ignore the next x words_
+> _**:rest%** was hard to find, and it would be nice to have something like ignore the next x words_
 
 1. %field_name:rest%
 2. %field_name:number%
