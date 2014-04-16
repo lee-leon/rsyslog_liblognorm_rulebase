@@ -1,9 +1,13 @@
 ### A rulebase for liblognorm and mmnormalize in rsyslog
 
+### Rule and Field syntax
+
+rule=[<tag1>[,<tag2>...]]:<match description>
+
+%<field name>:<field type>[:<extra data>]%
+
 ### Known field types
 
-Field types
-===========
 1. %field_name:rest%
 2. %field_name:number%
 3. %field_name:word%

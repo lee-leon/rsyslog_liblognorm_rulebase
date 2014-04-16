@@ -7,7 +7,7 @@ Each line in rulebase file is evaluated separately.
 Lines starting with '#' are commentaries.
 Empty lines are just skipped, they can be inserted for readability.
 If the line starts with 'rule=', then it contains a rule.
-This line hasfollowing format:
+This line has following format:
   rule=[<tag1>[,<tag2>...]]:<match description>
 
 Everything before a colon is treated as comma-separated list of tags, which
