@@ -2,7 +2,7 @@
 
 ### bulk loading syslogs into elasticsearch
 
-This approach is compatible with the logstash elasticsearch template, so the 
+This approach is compatible with the logstash's elasticsearch template, so the 
 indexed syslogs appear the same as if they are from logstash.
 
 ... add the mmnormalize and omelasticsearch dependencies:
