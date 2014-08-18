@@ -9,6 +9,7 @@ sudo apt-get install rsyslog-elasticsearch
 ```
 May 2014: the above was abandoned in favor of a simpler approach using Logstash.
 
+***
 
 ## A rulebase for liblognorm and mmnormalize in rsyslog
 
@@ -38,3 +39,5 @@ rule=[<tag1>[,<tag2>...]]:<match description>
 11. %field_name:date-rfc3164%
 12. %field_name:date-rfc5424%
 13. %-:iptables%
+
+***
