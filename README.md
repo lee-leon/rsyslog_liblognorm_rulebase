@@ -1,6 +1,9 @@
-## rsyslog.conf
+## rsyslog.conf usage
 
 ### bulk loading syslogs into elasticsearch
+
+This approach is compatible with the logstash elasticsearch template, so the 
+indexed syslogs appear the same as if they are from logstash.
 
 ... add the mmnormalize and omelasticsearch dependencies:
 ```
