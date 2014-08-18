@@ -1,4 +1,16 @@
-### A rulebase for liblognorm and mmnormalize in rsyslog
+## rsyslog.conf
+
+### bulk loading syslogs into elasticsearch
+
+... add the mmnormalize and omelasticsearch dependencies:
+```
+sudo apt-get install rsyslog-mmnormalize
+sudo apt-get install rsyslog-elasticsearch
+```
+May 2014: the above was abandoned in favor of a simpler approach using Logstash.
+
+
+## A rulebase for liblognorm and mmnormalize in rsyslog
 
 ### Rule and Field syntax
 
