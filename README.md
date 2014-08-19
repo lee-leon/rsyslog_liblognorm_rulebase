@@ -1,5 +1,7 @@
 ## Rsyslog versions
 
+See: http://www.rsyslog.com/debian-repository/
+
 ... list installed packages: name, version, and description:
 ```
 sudo dpkg -l ... which MUST be:
