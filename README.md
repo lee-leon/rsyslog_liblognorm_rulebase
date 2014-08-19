@@ -1,8 +1,8 @@
 ## Rsyslog versions
 
 ... list installed packages: name, version, and description:
-sudo dpkg -l  (hyphen L) ... must be:
 ```
+sudo dpkg -l  (hyphen L) ... must be:
 ii  rsyslog                 8.2.0-0adiscon1precise4    a rocket-fast system for log processing
 ii  rsyslog-elasticsearch   8.2.0-0adiscon1precise4    Elasticsearch output support for rsyslog
 ii  rsyslog-mmnormalize     8.2.0-0adiscon1precise4    The rsyslog-mmnormalize package provides log normalization
